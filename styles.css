@@ -1,0 +1,47 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 1.25em;
+}
+figcaption,label,input,small{
+    font-size: 1em;
+}
+nav a{
+    font-size: 1.5em;
+}
+h1{
+    font-size: 3em;
+    color: #007d7b;
+}
+h2{
+    font-size: 2em;
+    text-align: center;
+}
+html, nav{
+    background-color: #000000;
+}
+nav{
+    color: #fff;
+}
+body{
+    margin: 0 auto;
+    background-color: #fff;
+    width: 1300px;
+}
+footer{
+    text-align: center;
+    background-color: #000000;
+    color: #ffffff;
+}
+#contact{
+    color: #ffffff;
+    background-color: #000000;
+}
+[type="text"]{
+    color: #007d7b;
+}
+[type="submit"]{
+    color: #ffffff;
+    background-color: #007d7b;
+}
