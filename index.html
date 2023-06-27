@@ -9,10 +9,12 @@
 <body>
     <h1>TK Photography</h1>
     <nav>
-    About
-    Gallery
-    Contact
-    top
+        <ul>
+            <li><a>About</a></li>
+            <li><a>Gallery</a></li>
+            <li><a>Contact</a></li>
+            <p><a href="#top">top</a></p>
+        </ul>
     </nav>
     <h2>About</h2>
     <p>Hello!</p>
@@ -20,69 +22,73 @@
     <h2>Gallery</h2>
     <p>Here are some highlights of my work. The locations and year are in the caption.</p>
 
-    <figure>
-        <img src="images/Chile.png">
-        <figcaption>Chile, 2001</figcaption>
-    </figure>
+    <section id="imageGrid">
 
-    <figure>
-        <img src="images/Guatemala.png">
-        <figcaption>Guatemala, 1997</figcaption>
-    </figure>
+        <figure id="chile">
+            <img src="images/Chile.png">
+            <figcaption>Chile, 2001</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Hawaii.png">
-        <figcaption>Hawaii, 2010</figcaption>
-    </figure>
+        <figure id="guatemala">
+            <img src="images/Guatemala.png">
+            <figcaption>Guatemala, 1997</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Iran.png">
-        <figcaption>Iran, 1999</figcaption>
-    </figure>
+        <figure id="hawaii">
+            <img src="images/Hawaii.png">
+            <figcaption>Hawaii, 2010</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Ireland.png">
-        <figcaption>Ireland, 2012</figcaption>
-    </figure>
+        <figure id="iran">
+            <img src="images/Iran.png">
+            <figcaption>Iran, 1999</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Italy.png">
-        <figcaption>Italy, 2015</figcaption>
-    </figure>
+        <figure id="ireland">
+            <img src="images/Ireland.png">
+            <figcaption>Ireland, 2012</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Moab-Desert.png">
-        <figcaption>Moab Desert, 2020</figcaption>
-    </figure>
+        <figure id="italy">
+            <img src="images/Italy.png">
+            <figcaption>Italy, 2015</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Rocky-Mountains.png">
-        <figcaption>Rocky Mountains, 2009</figcaption>
-    </figure>
+        <figure id="moab">
+            <img src="images/Moab-Desert.png">
+            <figcaption>Moab Desert, 2020</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Switzerland.png">
-        <figcaption>Switzerland, 2014</figcaption>
-    </figure>
+        <figure id="rocky">
+            <img src="images/Rocky-Mountains.png">
+            <figcaption>Rocky Mountains, 2009</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/UK.png">
-        <figcaption>UK, 2005</figcaption>
-    </figure>
+        <figure id="switz">
+            <img src="images/Switzerland.png">
+            <figcaption>Switzerland, 2014</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/USA.png">
-        <figcaption>USA, 2021</figcaption>
-    </figure>
+        <figure id="uk">
+            <img src="images/UK.png">
+            <figcaption>UK, 2005</figcaption>
+        </figure>
 
-    <figure>
-        <img src="images/Wyoming.png">
-        <figcaption>Wyoming, 2021</figcaption>
-    </figure>
+        <figure id="usa">
+            <img src="images/USA.png">
+            <figcaption>USA, 2021</figcaption>
+        </figure>
+
+        <figure id="wyoming">
+            <img src="images/Wyoming.png">
+            <figcaption>Wyoming, 2021</figcaption>
+        </figure>
+
+    </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Please fill out this form and I'll connect with you soon.</p>
+        <p id="contactText">Please fill out this form and I'll connect with you soon.</p>
 
         <!-- Your contact information -->
         <form>

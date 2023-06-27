@@ -3,6 +3,7 @@
 }
 p{
     font-size: 1.25em;
+    padding: 10px;
 }
 figcaption,label,input,small{
     font-size: 1em;
@@ -13,21 +14,38 @@ nav a{
 h1{
     font-size: 3em;
     color: #007d7b;
+    margin: 0;
 }
 h2{
     font-size: 2em;
     text-align: center;
+    padding: 5px;
 }
 html, nav{
     background-color: #000000;
 }
 nav{
     color: #fff;
+    text-align: center;
+    text-decoration: none;
 }
+
+ul{
+    height: 75px;
+}
+
+nav a{
+    padding:20px;
+}
+
+nav li{
+    display: inline-flex;
+}
+
 body{
     margin: 0 auto;
     background-color: #fff;
-    width: 1300px;
+    width: 485px;
 }
 footer{
     text-align: center;
@@ -37,11 +55,258 @@ footer{
 #contact{
     color: #ffffff;
     background-color: #000000;
+    text-align: center;
+    padding: 8px;
 }
 [type="text"]{
     color: #007d7b;
 }
-[type="submit"]{
+input[type="submit"]{
     color: #ffffff;
     background-color: #007d7b;
+    width: 25%;
+    border-radius: 10px;
+    margin: 8px 0;
+    border: none;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:0px;
+    border-radius:10px 0 0px 0px;
+}
+
+img{
+    width: 100%;
+}
+
+figure{
+    margin:5px;
+    padding: 0;
+}
+
+#imageGrid{
+    display: grid;
+}
+
+#chile{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#guatemala{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#hawaii{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#iran{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#ireland{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#italy{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#moab{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#rocky{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#switz{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#uk{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#usa{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#wyoming{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#contactText{
+    text-align: center;
+}
+
+input{
+    width: 75%;
+    text-align: center;
+    margin: 8px auto;
+    height: 25px;
+}
+
+
+@media screen and (min-width:880px){
+    body{
+        width:880px;
+    }
+    nav{
+        text-align: center;
+    }
+
+    #imageGrid{
+        grid-template-columns: auto auto;
+        width: 880px;
+    }
+
+    #chile{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #guatemala{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #hawaii{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #iran{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #ireland{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #italy{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #moab{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #rocky{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #switz{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #uk{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #usa{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #wyoming{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+}
+
+@media screen and (min-width:1300px){
+    body{
+        width:1300px;
+    }
+    nav{
+        text-align: right;
+    }
+
+    #imageGrid{
+        width: 1300px;
+        grid-template-columns: auto auto auto;
+        /* gap: 10px; */
+    }
+
+    #chile{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #guatemala{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #hawaii{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    #iran{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #ireland{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #italy{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    #moab{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #rocky{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #switz{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
+    
+    #uk{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    #usa{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    
+    #wyoming{
+        grid-column-start: 3;
+        grid-column-end: 4;
+    }
 }
